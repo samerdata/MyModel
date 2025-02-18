@@ -24,4 +24,4 @@ app.layout = html.Div(children=[html.H1('Airline Performance Dashboard',style={'
                                 ])
 # Run the app
 if __name__ == '__main__':
-   app.run_server( port=8053)
+   app.run_server(debug=True)
